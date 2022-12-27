@@ -60,7 +60,6 @@ class User {
    * User.setCurrent.
    * */
   static login(data, callback) {
-    console.log(this, data,)
     createRequest({
       url: this.URL + '/login',
       method: 'POST',

@@ -83,6 +83,12 @@
       "email": "yana@gmail.com",
       "password": "yana",
       "id": "1sav54klc640ulb"
+    },
+    {
+      "name": "Trigun",
+      "email": "trigun@gmail.com",
+      "password": "trigun",
+      "id": "1savbx0lc6nk700"
     }
   ],
   "accounts": [
@@ -100,6 +106,16 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "456",
+      "user_id": "1saveaslc2arlm1",
+      "id": "1savcgklc6nav1f"
+    },
+    {
+      "name": "Trigun main",
+      "user_id": "1savbx0lc6nk700",
+      "id": "1sav2w0lc6nkm7y"
     }
   ],
   "transactions": [

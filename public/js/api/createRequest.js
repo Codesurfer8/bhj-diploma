@@ -1,8 +1,6 @@
 
 `use strict`
 
-
-
 const createRequest = (options = {}) => {
     const method = options.method;
     const receivedUrl = options.url;
@@ -15,6 +13,8 @@ const createRequest = (options = {}) => {
         dataList.push(element)
     };
 
+
+
     const xhr = new XMLHttpRequest();
     xhr.responseType = `json`;
 
@@ -23,8 +23,7 @@ const createRequest = (options = {}) => {
         xhr.open(method, readyUrl);
         xhr.send();
 
-    } else if (method === "POST") {
-
+    } else {
         formData = new FormData();
         for (let key in userData) {
             formData.append(key, userData[key])

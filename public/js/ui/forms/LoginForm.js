@@ -2,6 +2,7 @@
  * Класс LoginForm управляет формой
  * входа в портал
  * */
+'use strict'
 class LoginForm extends AsyncForm {
   /**
    * Производит авторизацию с помощью User.login

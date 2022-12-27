@@ -24,7 +24,8 @@ class Sidebar {
 
     buttonSidebar.addEventListener(
       'click',
-      () => {
+      (ev) => {
+        ev.preventDefault();
         iconSiderbarMini.classList.toggle('sidebar-open');
         iconSiderbarMini.classList.toggle('sidebar-collapse');
       }
